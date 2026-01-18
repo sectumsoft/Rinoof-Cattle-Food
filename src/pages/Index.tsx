@@ -7,10 +7,17 @@ import { toast } from "sonner";
 
 import heroCow from "@/assets/hero-cow.jpg";
 import aboutBackground from "@/assets/about-background.jpg";
-import productDairyBooster from "@/assets/product-dairy-booster.jpg";
-import productOrganicFeed from "@/assets/product-organic-feed.jpg";
-import productSilage from "@/assets/product-silage.jpg";
-import productEnergyPellet from "@/assets/product-energy-pellet.jpg";
+import productDairyBooster from "@/assets/product1.jpg";
+import productOrganicFeed from "@/assets/product2.jpg";
+import productSilage from "@/assets/product3.jpg";
+import productEnergyPellet from "@/assets/product4.png";
+import product5 from "@/assets/product5.png";
+import product6 from "@/assets/product6.png";
+import product7 from "@/assets/product7.png";
+import product12 from "@/assets/product12.jpg";
+import product9 from "@/assets/product8.png";
+import product10 from "@/assets/product10.jpg";
+import product11 from "@/assets/product11.jpg";
 import contactBackground from "@/assets/contact-background.jpg";
 
 interface Product {
@@ -26,10 +33,19 @@ interface CartItem extends Product {
 }
 
 const products: Product[] = [
-  { id: 1, name: "Dairy Booster Mix", price: 450, unit: "10kg", image: productDairyBooster },
-  { id: 2, name: "Organic Cattle Feed", price: 380, unit: "10kg", image: productOrganicFeed },
-  { id: 3, name: "Green Silage Pack", price: 520, unit: "15kg", image: productSilage },
-  { id: 4, name: "High Energy Pellet", price: 600, unit: "10kg", image: productEnergyPellet },
+  { id: 1, name: "Ks supreme ", price: 450, unit: "10kg", image: productDairyBooster },
+  { id: 2, name: "Ks deluxe ", price: 380, unit: "10kg", image: productOrganicFeed },
+  { id: 3, name: "Godrej bypass ", price: 520, unit: "15kg", image: productSilage },
+  { id: 4, name: "Godrej bypro", price: 600, unit: "10kg", image: productEnergyPellet },
+  { id: 4, name: "Godrej milkmore", price: 600, unit: "10kg", image: product10 },
+  { id: 4, name: "Prince bran", price: 600, unit: "10kg", image: product5 },
+  { id: 4, name: "Elite bran", price: 600, unit: "10kg", image: product6 },
+  { id: 4, name: "Cotton seed ", price: 600, unit: "10kg", image: product6 },
+  { id: 4, name: "Ground nut cake", price: 600, unit: "10kg", image: product7 },
+  { id: 4, name: "Soya potu", price: 600, unit: "10kg", image: product11 },
+  { id: 4, name: "Pattani pottu ", price: 600, unit: "10kg", image: product12 },
+  { id: 4, name: "Kambu", price: 600, unit: "10kg", image: product9 },
+
 ];
 
 const Index = () => {
