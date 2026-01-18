@@ -33,18 +33,18 @@ interface CartItem extends Product {
 }
 
 const products: Product[] = [
-  { id: 1, name: "Ks supreme ", price: 450, unit: "10kg", image: productDairyBooster },
-  { id: 2, name: "Ks deluxe ", price: 380, unit: "10kg", image: productOrganicFeed },
-  { id: 3, name: "Godrej bypass ", price: 520, unit: "15kg", image: productSilage },
-  { id: 4, name: "Godrej bypro", price: 600, unit: "10kg", image: productEnergyPellet },
-  { id: 4, name: "Godrej milkmore", price: 600, unit: "10kg", image: product10 },
-  { id: 4, name: "Prince bran", price: 600, unit: "10kg", image: product5 },
-  { id: 4, name: "Elite bran", price: 600, unit: "10kg", image: product6 },
-  { id: 4, name: "Cotton seed ", price: 600, unit: "10kg", image: product6 },
-  { id: 4, name: "Ground nut cake", price: 600, unit: "10kg", image: product7 },
-  { id: 4, name: "Soya potu", price: 600, unit: "10kg", image: product11 },
-  { id: 4, name: "Pattani pottu ", price: 600, unit: "10kg", image: product12 },
-  { id: 4, name: "Kambu", price: 600, unit: "10kg", image: product9 },
+  { id: 1, name: "Ks supreme ", price: 1450, unit: "Per Pack", image: productDairyBooster },
+  { id: 2, name: "Ks deluxe ", price: 1280, unit: "Per Pack", image: productOrganicFeed },
+  { id: 3, name: "Godrej bypass ", price: 1300, unit: "Per Pack", image: productSilage },
+  { id: 4, name: "Godrej bypro", price: 1400, unit: "Per Pack", image: productEnergyPellet },
+  { id: 4, name: "Godrej milkmore", price: 1450, unit: "Per Pack", image: product10 },
+  { id: 4, name: "Prince bran", price: 1000, unit: "Per Pack", image: product5 },
+  { id: 4, name: "Elite bran", price: 980, unit: "Per Pack", image: product6 },
+  { id: 4, name: "Cotton seed ", price: 2000, unit: "Per Pack", image: product6 },
+  { id: 4, name: "Ground nut cake", price: 2200, unit: "Per Pack", image: product7 },
+  { id: 4, name: "Soya potu", price: 600, unit: "Per Pack", image: product11 },
+  { id: 4, name: "Pattani pottu ", price: 550, unit: "Per Pack", image: product12 },
+  { id: 4, name: "Kambu", price: 1500, unit: "Per Pack", image: product9 },
 
 ];
 
