@@ -113,7 +113,7 @@ const Index = () => {
       .join("%0A");
     const total = getTotalPrice();
     const message = `Hello! I would like to order:%0A%0A${orderDetails}%0A%0ATotal: ₹${total}`;
-    const whatsappUrl = `https://wa.me/919995454086?text=${message}`;
+    const whatsappUrl = `https://wa.me/919074959523?text=${message}`;
     window.open(whatsappUrl, "_blank");
   };
 
@@ -127,7 +127,7 @@ const Index = () => {
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-primary">Rinoof's Cattle Feeds</h1>
+          <h1 className="text-2xl font-bold text-primary">SNR Cattle Feeds</h1>
           <div className="flex items-center gap-6">
             <button
               onClick={() => scrollToSection("about")}
@@ -276,10 +276,10 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto animate-on-scroll">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-              About Rinoof's Cattle Feeds
+              About SNR Cattle Feeds
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              At Rinoof's Cattle Feeds, we provide farm-fresh cattle feed designed to keep your livestock
+              At SNR Cattle Feeds, we provide farm-fresh cattle feed designed to keep your livestock
               healthy and productive. Our products are crafted with natural ingredients, ensuring
               optimal nutrition for dairy cows and other farm animals. We believe in sustainable
               farming practices that benefit both animals and the environment.
@@ -354,12 +354,12 @@ const Index = () => {
                 <div>
                   <p className="font-semibold">WhatsApp / Phone</p>
                   <a
-                    href="https://wa.me/919995454086"
+                    href="https://wa.me/919074959523"
                     className="text-primary hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    +91 99954 54086
+                    +91 90749 59523
                   </a>
                 </div>
               </div>
@@ -389,7 +389,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-primary text-primary-foreground py-8">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-sm">© 2025 Rinoof's Cattle Feeds | All Rights Reserved</p>
+          <p className="text-sm">© 2025 SNR Cattle Feeds | All Rights Reserved</p>
           <p className="text-sm mt-2 opacity-80">Fresh. Nutritious. Natural.</p>
         </div>
       </footer>
